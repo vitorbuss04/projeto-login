@@ -35,13 +35,16 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 550px;
     transform: translate(-50%, -50%);
     overflow: hidden;
     border-radius: 20px;
     background: #c4c4c4;
     box-shadow:  21px 21px 55px #878787, -21px -21px 55px #fff;
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
@@ -55,7 +58,6 @@ div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
-
 }
 
 
